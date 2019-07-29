@@ -1,6 +1,6 @@
---------------------
+----------------------------------
 JAWABAN EXERCISES 1 WEEK-2 PHASE0
---------------------
+----------------------------------
 No.1
 -Algoritma =
     1. Tampung variable massaBenda dengan nilai 600
@@ -74,4 +74,4 @@ No.4
             DISPLAY 'Dihukum'
         ELSE
             DISPLAY 'Bagus!'
-    DISPLAY 'Semua Siswa telah d cek'
+    DISPLAY 'Semua Siswa telah di cek'
