@@ -39,6 +39,7 @@ No.2
         DISPLAY 'Tahun Kabisat'
     ELSE
         DISPLAY 'Bukan Tahun Kabisat'
+    END IF
 
 No.3
 -Algoritma =
@@ -74,4 +75,8 @@ No.4
             DISPLAY 'Dihukum'
         ELSE
             DISPLAY 'Bagus!'
+        END IF
+        
+        ADD 'siswa' with 1
+        
     DISPLAY 'Semua Siswa telah di cek'
