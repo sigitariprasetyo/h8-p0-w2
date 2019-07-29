@@ -1,0 +1,77 @@
+--------------------
+JAWABAN EXERCISES 1 WEEK-2 PHASE0
+--------------------
+No.1
+-Algoritma =
+    1. Tampung variable massaBenda dengan nilai 600
+    2. Tampung variable percepatanBenda dengan nilai 2
+    3. Kalikan variable massaBenda dengan variable percepatanBenda
+    4. Tampung hasil perkalian tersebut kedalam variable resultanGaya
+    5. Tampilkan resultanGaya
+
+-Pseucode =
+    STORE 'massaBenda' with 600
+    STORE 'percepatanBenda' with 2
+    STORE 'resultanGaya' without any
+
+    COMPUTE 'massaBenda' times 'percepatanBenda
+    SET 'resultanGaya' with calculation result
+
+    DISPLAY 'resultanGaya'
+
+No.2
+-Algoritma =
+    1. Masukan dan simpan variable 'tahun' dengan nilai berapapun
+    2. bagi variable 'tahun' dengan 400, jika hasilnya habis lanjutkan step 5, jika ada sisa lanjut step 3
+    3. bagi variable 'tahun' dengan 100, jika hasilnya habis lanjutkan step 5, jika ada sisa lanjut step 4
+    4. bagi variable 'tahun' dengan 4, jika hasilnya habis lanjutkan step 5, jika ada sisa lanjutkan step 6
+    5. tampilkan nilai variable 'tahun' adalah tahun kabisat
+    6. tampilkan nilai variable 'tahun' adalah bukan tahun kabisat
+
+-Pseucode =
+    INPUT and STORE 'tahun' with any
+
+    IF 'tahun' modulus 400 equals 0
+        DISPLAY 'Tahun Kabisat'
+    ELSE IF 'tahun' modulus 100 equals 0
+        DISPLAY 'Tahun Kabisat'
+    ELSE IF 'tahun' modulus 4 equals 0
+        DISPLAY 'Tahun Kabisat'
+    ELSE
+        DISPLAY 'Bukan Tahun Kabisat'
+
+No.3
+-Algoritma =
+    1. simpan variable 'mesinCuci' dengan nilai 0
+    2. simpan variable 'baju' dengan nilai 20
+    3. tambahkan 1 baju kedalam 'mesinCuci'
+    3. ulangi step 3 sampai semua baju masuk 'mesinCuci'
+    4. setelah semua baju masuk tampilkan 'semua baju telah dimasukan,silahkan nyalakan mesin cuci'
+
+-Pseucode =
+    STORE 'mesinCuci' with 0
+    STORE 'baju' with 20
+
+    WHILE 'mesinCuci' is less than 'baju'
+        ADD 'mesinCuci' with 1
+
+    DISPLAY 'semua baju telah dimasukan,silahkan nyalakan mesin cuci'
+
+No.4
+-Algoritma =
+    1. tampung variable 'jmlhSiswa' dengan nilai 40
+    2. guru melakukan pengecekan mulai dari siswa ke-1
+    3. cek kondisi kuku, jika panjang tampilkan 'Dihukum', jika pendek tampilkan 'Bagus!'
+    4. kembali ke step 2 sampai siswa ke 40
+    
+-Pseucode =
+    STORE 'jmlhSiswa' with 40
+    STORE 'siswa' with 1
+    STORE 'kuku' with preferrable values between 'panjang' or 'pendek'
+
+    WHILE 'siswa' less than or equals to 'jmlhSiswa'
+        IF kuku equals to 'panjang'
+            DISPLAY 'Dihukum'
+        ELSE
+            DISPLAY 'Bagus!'
+    DISPLAY 'Semua Siswa telah d cek'
