@@ -18,7 +18,9 @@ for(var i = 0; i < rows2; i++){
     for(var j = 0; j < rows2; j++){
         bintang += '*';  
     }
-    bintang += ('\n');
+    if(i !== rows2 - 1){
+        bintang += ('\n');
+    }
 }
 console.log(bintang);
 
@@ -32,7 +34,9 @@ for(var i = 0; i < rows3; i++){
     for(var j = 0; j <= i; j++){
         bintang3 += '*';
     }
-    bintang3 += ('\n');
+    if(i !== rows3 - 1){
+        bintang3 += ('\n');
+    }
 }
 console.log(bintang3);
 
