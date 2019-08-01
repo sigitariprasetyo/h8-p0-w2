@@ -9,7 +9,7 @@ var i = 1;
 console.log(' LOOPING PERTAMA');
 while(i <= 20){
     if(i%2 == 0){
-        console.log(i + ' - I Love Coding');
+        console.log(i + ' - I love coding');
     }
     i++;
 }
@@ -20,7 +20,7 @@ var i = 20;
 console.log(' LOOPING KEDUA');
 while(i > 0){
     if(i%2 == 0){
-        console.log(i + ' - I Love Coding');
+        console.log(i + ' - I love coding');
     }
     i--;
 }
@@ -32,7 +32,7 @@ console.log('NO.2');
 // Looping Pertama
 console.log(' LOOPING PERTAMA');
 for(var i = 1; i <= 20; i++){
-    console.log(i + ' - I LOve Coding');
+    console.log(i + ' - I love coding');
 }
 
 // Looping Kedua
@@ -47,9 +47,9 @@ console.log('NO.3');
 // Angka Ganjil Genap
 for(var counter = 1; counter <= 100; counter++){
     if(counter % 2 == 0){
-        console.log(counter + ' adl GENAP');
+        console.log('GENAP');
     } else {
-        console.log(counter  + ' adl GANJIL');
+        console.log('GANJIL');
     }
 }
 
